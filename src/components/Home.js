@@ -28,7 +28,7 @@ const Home = () => {
                  setselectedCategory={setselectedCategory}/> 
        </Box>
 
-       <Box p={2}  sx={{ height:'90vh',flex:2}} >
+       <Box px={2}  sx={{ height:'90vh',flex:2}} >
           <Typography variant='h4'
           fontWeight="bold" mb={2}>
            {selectedCategory}  <span style={{color:"#F31503"}}>videos</span>
